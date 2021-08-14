@@ -1,0 +1,56 @@
+{
+  "generator-jhipster": {
+    "blueprints": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.12.1"
+      }
+    ],
+    "otherModules": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.12.1"
+      }
+    ],
+    "applicationType": "monolith",
+    "baseName": "khipster",
+    "jhipsterVersion": "7.0.1",
+    "skipClient": true,
+    "skipServer": false,
+    "skipUserManagement": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "testFrameworks": [],
+    "pages": [],
+    "creationTimestamp": 1628964822453,
+    "serviceDiscoveryType": false,
+    "reactive": true,
+    "authenticationType": "jwt",
+    "packageName": "com.mycompany.myapp",
+    "serverPort": "8080",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mariadb",
+    "buildTool": "gradle",
+    "serverSideOptions": [],
+    "websocket": false,
+    "searchEngine": false,
+    "messageBroker": false,
+    "enableSwaggerCodegen": false,
+    "clientFramework": "no",
+    "enableTranslation": true,
+    "nativeLanguage": "ko",
+    "packageFolder": "com/mycompany/myapp",
+    "jwtSecretKey": "YjUwNzZiNjQ1YzkwYTY4ZWIxNjBmZWIzNjRiZjhhYTAxZjg1NWU2ZjJkOTAzODJkYWViNmY1YjQxZmQxYTczYzdlMzdmOTQ0NjZmZWQyNWMzNDkyYjYzOGE0OWRmYjNiOGE4NmM3OGUwN2RhYTE2MzljOGU5Mzk3YzZhMzE4M2M=",
+    "clientPackageManager": "npm",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "withAdminUi": true,
+    "languages": ["ko"]
+  }
+}
